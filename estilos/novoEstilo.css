@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Bruno+Ace&family=Gabarito&family=Kanit:wght@300;400&family=Krona+One&family=Metal&family=Odor+Mean+Chey&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Bruno+Ace&family=Gabarito&family=Kanit:wght@300;400&family=Krona+One&family=Metal&family=Odor+Mean+Chey&family=Roboto+Slab&display=swap');
+
 :root {
     --cor-primaria: black;
     --cor-secundaria: whitesmoke;
@@ -31,7 +34,7 @@
 }
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 5rem;
     justify-content: left;
 }
 .cabecalho__menu__link{
@@ -41,7 +44,7 @@
     color:var(--cor-secundaria);
     border: 2px solid var(--cor-terciaria);
     border-radius: 5%;
-    padding: 10px 10px;
+    padding: 0.625rem 0.625rem;
     text-decoration: none;
 }
 .cabecalho__menu__link:hover {
@@ -52,31 +55,33 @@
     align-items: center;
     justify-content: space-between;
     padding: 2% 1% 0 5%;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .apresentacao__conteudo {
     width: 65%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: 'Gabarito', sans-serif;
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-primaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: 'Kanit', sans-serif;
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-terciaria);
 }
 .apresentacao__links{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 .apresentacao__links__subtitulo{
     font-family: 'Krona One', sans-serif;
@@ -85,13 +90,13 @@
 .apresentacao__links__botao{
     display: flex;
     justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--cor-terciaria);
+    gap: 1rem;
+    border: 0.125rem solid var(--cor-terciaria);
     width: 40%;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-size: 1.5rem;
-    padding: 21px 10px;
+    padding: 1.313rem 0.625rem;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Kanit', sans-serif;
@@ -108,7 +113,7 @@
 .rodape{
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
-    padding: 12px;
+    padding: 0.75rem;
     text-align: center;
     font-family: 'Kanit', sans-serif;
     font-size: 1.5rem;
