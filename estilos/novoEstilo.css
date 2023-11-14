@@ -148,7 +148,6 @@ justify-content: space-between;
 .imagem__minha__foto_n{
     width: 15.625rem;
     height: 21.188rem;
-    border-radius: 9%;
     align-items: center;
     justify-content: center;
     padding: 1.875rem 0 3.688rem 34.375rem;
@@ -203,6 +202,7 @@ justify-content: space-between;
     .imagem__minha__foto_n{
         padding: 2.813rem 0 2.813rem 2.188rem;
         width: auto;
+        border-radius: 55%;
     }
     .conteudo__nobre{
         flex-direction: column-reverse;
