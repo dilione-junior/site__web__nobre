@@ -205,7 +205,7 @@ justify-content: space-between;
         width: auto;
     }
     .conteudo__nobre{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
         #navegador__video{
         flex-direction: column-reverse;
