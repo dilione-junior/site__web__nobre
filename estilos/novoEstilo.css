@@ -206,8 +206,10 @@ justify-content: space-between;
     }
     .conteudo__nobre{
         flex-direction: column-reverse;
+        align-items: center;
     }
-        #navegador__video{
+    #navegador__video{
         flex-direction: column-reverse;
+        align-items: center;
     }
 }
