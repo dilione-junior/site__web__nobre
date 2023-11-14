@@ -18,12 +18,12 @@
     /* height: 100vh; */
     color: var(--cor-secundaria);
     background-image: url(../imagens/planoFundo.jpg);
+    background-position: center center;
 }
 .segundo__fundo {
     /* height: 100vh; */
     color: var(--cor-secundaria);
     background-image: url(../imagens/sobreMim11.jpeg);
-    background-repeat: no-repeat;
     background-position: center center;
 }
 .titulo-destaque {
