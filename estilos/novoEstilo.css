@@ -53,7 +53,7 @@
 .cabecalho__menu__link:hover {
     background-color: var(--cor-hover);
     border: 0.150rem solid var(--cor-houver--secundaria);
-    border-radius: 2%;
+    border-radius: 0.625rem;
     color: var(--cor-houver--secundaria);
 }
 
