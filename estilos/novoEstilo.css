@@ -207,4 +207,7 @@ justify-content: space-between;
     .conteudo__nobre{
         flex-direction: column;
     }
+        #navegador__video{
+        flex-direction: column-reverse;
+    }
 }
