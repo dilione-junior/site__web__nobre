@@ -32,7 +32,7 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    padding: 3% 0 0 5%;
+    padding: 35px 45px 35px 45px;
 }
 .cabecalho__menu{
     display: flex;
@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 1% 0 5%;
+    padding: 15px 45px 15px 45px;
     gap: 5rem;
 }
 
@@ -81,6 +81,14 @@
     color: var(--cor-terciaria);
 }
 
+.apresentacao__conteudo__subtitulo{
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--fonte-conteudo);
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-primaria);
+    color: var(--cor-terciaria);
+}
+
 .conteudo__realizacao{
     flex-wrap: nowrap;
     padding: 0.938rem 1.563rem 0 3.688rem;
@@ -94,16 +102,27 @@
     height: 31.25rem;
 }
 
+.apresentacao__conteudo__pessoal{
+    text-align: center;
+    width: 100%;
+}
+
 .bloco__pessoal{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre:hover {
+    color: var(--cor-terciaria);
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-houver--secundaria);
 }
 
 .apresentacao__conteudo__texto {
-    padding: 0 0 0.563rem 1.938rem;
+    padding: 0.563rem 0 0.563rem 1.938rem;
     font-size: 1.5rem;
     font-family: var(--fonte-conteudo);
 }
+
 .apresentacao__links{
     display: flex;
     flex-direction: column;
@@ -138,7 +157,6 @@ justify-content: space-between;
 }
 .imagem__minha__foto{
    display: flex;
-   justify-content: space-between;
    width: 100%;
    border-radius: 11%;
    padding: 1.375rem 0 3.125rem 0;
@@ -146,9 +164,8 @@ justify-content: space-between;
 .imagem__minha__foto_n{
     width: 15.625rem;
     height: 21.188rem;
-    align-items: center;
-    justify-content: center;
-    padding: 1.875rem 0 3.688rem 34.375rem;
+    padding: 25px 0 25px 0;
+    border-radius: 55%;
 }
 .campo__link{
     font-size: 3.125rem;
@@ -169,7 +186,9 @@ justify-content: space-between;
     padding: 0.75rem;
     text-align: center;
     font-family: var(--fonte-conteudo);
-    font-size: 1.5rem;
+    font-size: 35px;
+    font-weight:bold;
+    text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-secundaria);
 }
 
 @media(max-width:1200px){
@@ -184,10 +203,14 @@ justify-content: space-between;
     .cabecalho{ 
         justify-content: center;
     }
+    .cabecalho__menu{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
     .cabecalho__menu__link{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 0.188rem 0.438rem;
-
     }
     .apresentacao{
         flex-direction: column-reverse;
@@ -204,6 +227,7 @@ justify-content: space-between;
     }
     .bloco__pessoal{
         width: auto;
+        justify-content: center;
     }
     .imagem__minha__foto_n{
         padding: 2.813rem 0 2.813rem 2.188rem;
