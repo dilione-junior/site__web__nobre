@@ -89,6 +89,17 @@
     color: var(--cor-terciaria);
 }
 
+.contato__usuario{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+.contato__usuario__texto{
+    font-size: 1.5rem;
+    font-family: var(--fonte-conteudo);
+}
+
 .conteudo__realizacao{
     flex-wrap: nowrap;
     padding: 0.938rem 1.563rem 0 3.688rem;
