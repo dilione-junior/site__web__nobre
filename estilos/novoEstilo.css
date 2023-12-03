@@ -141,10 +141,12 @@
     align-items: center;
     gap: 2rem;
 }
+
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-conteudo);
     font-size: 1.5rem;
 }
+
 .apresentacao__links__botao{
     display: flex;
     justify-content: center;
@@ -160,37 +162,53 @@
     font-family: var(--fonte-conteudo);
     font-weight: 600;
 }
+
 .apresentacao__links__botao:hover {
     border: 0.150rem solid var(--cor-houver--secundaria);
     border-radius: 0.625rem;
     color: var(--cor-secundaria);
     text-shadow: 0.063rem 0.0625rem 0.125rem var(--cor-houver--secundaria);
 }
+
 .imagem__minha__foto{
    display: flex;
    width: 100%;
    border-radius: 11%;
    padding: 1.375rem 0 3.125rem 0;
   }
+
 .imagem__minha__foto_n{
     width: 15.625rem;
     height: 21.188rem;
     padding: 25px 0 25px 0;
     border-radius: 55%;
 }
+
 .campo__link{
     font-size: 3.125rem;
     font-family: var(--fonte-conteudo);
     text-align: center;
     padding: 0 0 3.125rem 0;
 }
+
 #link__mais__info{
     color: var(--cor-terciaria);
 }
+
 #link__mais__info:hover {
     color: var(--cor-houver--secundaria);
     
 }
+
+#botao__formulario{
+    border: 0.150rem solid var(--cor-terciaria);
+    border-radius: 0.625rem;
+    font-size: 25px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
 .rodape{
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
